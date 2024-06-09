@@ -17,3 +17,27 @@ header, footer {
 ul {
     list-style-type: square;
 }
+
+section ul li:nth-child(odd) {
+    background-color: green;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none; background-color: pink; border-style: dotted;
+}
+
+a:visited {
+    background-color: red;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+a:active {
+    background-color: hotpink;
+}
