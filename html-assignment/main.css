@@ -18,8 +18,8 @@ ul {
     list-style-type: square;
 }
 
-section li:nth-child(odd) {
-    background-color: darkolivegreen;
+h3 ul li:nth-child(odd) {
+    background-color: green;
 }
 
 nav ul {
