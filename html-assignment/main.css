@@ -7,7 +7,7 @@ header, footer {
 }
 
 .site-title h1 {
-    color: darkgreen;
+    text-decoration-color: darkgreen;
 }
 
 #my-image {
