@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    background-color: aquamarine;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 250px;
+    margin-top: 0;
+    background-color: white;
+}
+
+/* container holding starfish image and text  */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;;
+    font-size: 64px;
+}
+
+/* puts and centers text over the image  */
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.wrapper section:nth-child(2) li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 310px;
+    box-sizing: border-box;
+    border-right: solid;
+}
+
+.wrapper section:nth-child(2) li:nth-child(3) {
+    border: none;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.starfish {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 10px;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper section:nth-child(3) article {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.wrapper section:nth-child(4) {
+    margin: 10px;
+}
+
+.wrapper section:nth-child(4) li {
+    list-style: disc;
+    margin-left: 15px;
+}
