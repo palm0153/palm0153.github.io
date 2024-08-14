@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>palm0153 final project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">    
+    
 
     <!-- adds fontawesome.com link  -->
     <script src="https://kit.fontawesome.com/61dc5e7d7b.js" crossorigin="anonymous"></script>
@@ -13,9 +17,9 @@
 <body>
     <div class="wrapper">
         <div class="navigation">
-            <img class="logo" src="images/logo.png" alt="logo">
+            <img class="logo" src="images/logo.png" alt="logo" width="100%">
             <nav>
-                <ul>
+                <ul class="nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
@@ -25,31 +29,35 @@
             </nav>
             <form class="search">
                 <!-- puts the word "Search" inside  -->
-                <input type="text" placeholder="Search">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input id="search" type="text" placeholder="Search">
+                <button id= "mag" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
-        <header>
-            <img src="images/main-banner.jpg" alt="mainbanner">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis velit harum error eos, accusantium cum aliquid voluptatum ex, inventore voluptatibus magni porro iusto fuga est sapiente, quos a ut.</p>
-            <!-- used an icon from fontawesome.com  -->
-            <button type="submit">Connect with us <i class="fa-solid fa-caret-right"></i></button>
-        </header>
+        <div class="welcome">
+            <img class="welimg" src="images/main-banner.jpg" alt="mainbanner">
+            <div class="welcomeHeadingContainer">
+                <div class="wel">Welcome to Three Star Media</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nobis velit harum error eos, accusantium cum aliquid voluptatum ex, inventore voluptatibus magni porro iusto fuga est sapiente, quos a ut.</p>
+                <!-- used an icon from fontawesome.com  -->
+                <button type="submit">Connect with us <i class="fa-solid fa-caret-right"></i></button>
+            </div>    
+        </div>    
         <section class="about">
             <img src="images/about-us.jpg" alt="aboutus">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia omnis illum aut accusantium aliquid similique, culpa quam! Voluptatem dolorem reprehenderit, in, quod vitae pariatur, quasi repellendus tempore ex ducimus perspiciatis.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et itaque exercitationem adipisci quis accusamus soluta numquam qui, nisi, hic dolorum illo quod est nulla vero! Vitae, fugit repellat! Maxime, debitis!</p>
         </section>
-        <section class="ourservices">
+        <div class="ourservices">
             <h2>Our Services</h2>
-            <img src="images/digital.jpg" alt="digital">
-            <h3>Digital Transformation</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos pariatur quisquam ullam corrupti, commodi sapiente similique non? Voluptas est sapiente quisquam assumenda, inventore sunt hic molestias corporis ut blanditiis minima!</p>
+            <section class="digital">
+                <img src="images/digital.jpg" alt="digital">
+                <h3>Digital Transformation</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos pariatur quisquam ullam corrupti, commodi sapiente similique non? Voluptas est sapiente quisquam assumenda, inventore sunt hic molestias corporis ut blanditiis minima!</p>
                         <!-- used an icon from fontawesome.com  -->
-            <button type="submit">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
-        </section>
+                <button type="submit">Digital Plans <i class="fa-solid fa-caret-right"></i></button>
+            </section>
+        </div>
         <section class="marketing">
             <img src="images/marketing.jpg" alt="laptop">
             <h3>Marketing</h3>
